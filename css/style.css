@@ -22,13 +22,33 @@ main section.first-page{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    border: solid red;
+    /* border: solid red; */
 }
 
 main section.first-page .hero-banner{
     display: flex;
+    justify-content: center;
     flex-direction: row;
 }
 main section.first-page .hero-banner article{
-    border: solid black;
+    /* border: solid black; */
+    width: 40%;
+}
+main section.first-page .hero-banner article h2{
+    font-size: 42px;
+}
+
+main section.first-page .hero-banner article section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: solid green; */
+}
+main section.first-page .hero-banner article section input{
+    padding: 2% 5%;
+}
+main section.first-page .hero-banner article section p{
+    /* border: solid red; */
+    width: 75%;
+    
 }
