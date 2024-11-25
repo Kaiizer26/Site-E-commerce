@@ -36,7 +36,7 @@ header nav article.redirection a{
    transition: 0.5s;
    background-size: 200% auto;
    color: white;            
-   box-shadow: 0 0 2px #eee;
+   box-shadow: 0 0 1px #eee;
    border-radius: 5px;
    /* display: block; */
  }
@@ -57,7 +57,7 @@ header nav article.redirection a{
     transition: 0.5s;
     background-size: 200% auto;
     color: white;            
-    box-shadow: 0 0 2px #eee;
+    box-shadow: 0 0 1px #eee;
     border-radius: 5px;
   }
 
@@ -90,6 +90,11 @@ main section.first-page .hero-banner article{
 main section.first-page .hero-banner article h2{
     font-size: 42px;
 }
+main section.first-page .hero-banner article p{
+    text-align: left;
+    width: 85%;
+    margin-bottom: 1em;
+}
 
 main section.first-page .hero-banner article section{
     display: flex;
@@ -114,7 +119,7 @@ main section.first-page .hero-banner article section p{
    transition: 0.5s;
    background-size: 200% auto;
    color: white;            
-   box-shadow: 0 0 2px #eee;
+   box-shadow: 0 0 1px #eee;
    border-radius: 5px;
    /* display: block; */
  }
@@ -148,6 +153,9 @@ main section.first-page .features section img{
     margin-right: 1em;
     width: 40px;
 }
+main section.first-page .features article p{
+    text-align: left;
+}
 
 /* Avantages */
 
@@ -165,15 +173,65 @@ main section.first-page .features section img{
     width: 30%;
     height: 250px;
     border-radius: 10px;
-
+    
+}
+.main-avantages article section p{
+    margin-top: 2em;
+    text-align: left;
 }
 /* Avis */
 /* Des chiffres */
 .main-chiffres{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    padding-bottom: 100px;
 }
 .main-chiffres article{
-    border: solid grey 1px;
+    /* background-color: white; */
+    /* border: solid grey 1px; */
+    width: 15%;
+    padding: 20px;
+    box-shadow: 0 0 10px #434141;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around; */
+}
+.main-chiffres article h3, p{
+    margin: 8px 0;
+    text-align: center;
+}
+
+/* Foire aux questions */
+
+.main-faq article.question{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-faq article.question section{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid grey 1px;
+}
+.main-faq h2{
+    text-align: center;
+    margin-bottom: 3em;
+    font-size: 40px;
+}
+.main-faq h3{
+    font-size: 24px;
+
+}
+.main-faq .question section img{
+    width: 15px;
+}
+.main-faq .question p{
+    text-align: left;
+    margin-top: 2em;
+    width: 70%;
 }
