@@ -286,3 +286,22 @@ footer #copyright{
     color: #8a8b85;
     margin-top: 5em;
 }
+
+.login main{
+    padding: 3%;
+    margin: 3em 0;
+    display: flex;
+    justify-content: center;
+}
+
+.login main article{
+    padding: 7%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #eee;
+    display: flex;
+    flex-direction: column;
+}
+.login main article form{
+    display: flex;
+    flex-direction: column;
+}
