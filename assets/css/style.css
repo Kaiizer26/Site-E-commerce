@@ -244,6 +244,45 @@ main section.first-page .features article p{
 /* Footer */
 footer{
     /* border: solid red; */
+    margin-top: 3em;
+    padding: 3em 0;
     background-color: #212121;
     color: white;
+}
+
+footer section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+footer section article{
+    display: flex;
+    flex-direction: column;
+ }
+
+footer section article section{
+    display: flex;
+    flex-direction: column;
+}
+
+footer section article a{
+    text-decoration: none;
+    color: white;
+    line-height: 3em;
+}
+footer #footer-logo{
+    font-size: 42px;
+    text-align: center;
+}
+
+footer #footer-help{
+    /* line-height: 0; */
+}
+footer #footer-support{
+    font-size: 20px;
+    font-weight: bold;
+}
+footer #copyright{
+    color: #8a8b85;
+    margin-top: 5em;
 }
